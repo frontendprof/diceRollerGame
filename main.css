@@ -8,13 +8,22 @@
 
 
 body{
-    background-color: rgb(36, 30, 30);
+    background-color: rgb(100, 100, 100);
 }
+
+
+
 
 #output{
     width: 550px;
     text-align: center;
     font-size: 2em;
+    color:#fff;
+    border: 1px solid cadetblue;
+    margin:5rem 0;
+    padding:1.4rem;
+
+
 
 }
 
@@ -24,14 +33,19 @@ body{
     width:200px;
     height: 140px;
     border:1px solid #fff;
-    padding:5px;
-    margin:25px;
+    padding:3px;
+    margin:38px;
     text-align: center;
-    font-size: 7em;
+    font-size: 8em;
+    color:#fff;
+    background-color: cadetblue;
 }
 
 button{
-    padding: 10px;
+    /* padding: 5px; */
     text-align: center;
     width: 550px;
+    color:cadetblue;
+    font-size: 8em;
+    border-style: groove;
 }
