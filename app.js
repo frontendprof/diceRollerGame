@@ -27,5 +27,9 @@ button.addEventListener("click",()=>{
 
 const roll = num =>{
     let rNum = Math.floor(Math.random()*num)+1;
-    return rNum;
+    let n=9855+rNum;
+    let char="&#"+n+";";
+
+
+    return rNum+ ""+char;
 }
