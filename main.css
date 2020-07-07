@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 *{
     margin: 0;
@@ -9,41 +9,74 @@
 
 body{
     background-color: rgb(100, 100, 100);
+    font-family: 'Fredericka the Great', cursive;
 }
+
 
 
 
 
 #output{
-    width: 550px;
+    /* width: 80; */
     text-align: center;
-    font-size: 2em;
+    font-size: 3rem;
     color:#fff;
-    border: 1px solid cadetblue;
-    margin:5rem 0;
-    padding:1.4rem;
+    border: 3px solid yellow;
+    margin:5rem auto;
+    padding:.5rem;
+    background-color: cadetblue;
 
 }
+
+
 
 #player1,
 #player2{
-    display: inline-block;
-    width:200px;
-    height: 140px;
-    border:1px solid #fff;
-    padding:3px;
-    margin:38px;
+    width:30%;
+    height: 120px;
+    border:2px solid yellow;
+    padding-top:40px;
+    line-height: .5;
+    margin:20px 80px;
     text-align: center;
-    font-size: 8em;
-    color:#fff;
+    font-size: 3rem;
+    color:rgb(136, 2, 58);
     background-color: cadetblue;
 }
 
-button{
-    /* padding: 5px; */
+
+
+button,
+button:focus{  
+    font-size: 4rem;
+    font-weight: bolder;
+    background-color: cadetblue;
+    margin-top: 2rem;
+    color:#fff;
+    width: 100%;
+    cursor: pointer;
+    border:3px solid yellow;
+} 
+
+
+
+@media only screen and (max-width: 1150px) {
+    body{
+        background-color: rgb(211, 204, 204);
+
+    }
+
+    #player1,
+    #player2{
+    width:30%;
+    height: 60px;
+    border:2px solid yellow;
+    padding-top:20px;
+    line-height: .5;
+    margin:20px;
     text-align: center;
-    width: 550px;
-    color:cadetblue;
-    font-size: 8em;
-    border-style: groove;
+    font-size: 2rem;
+    color:rgb(136, 2, 58);
+    background-color: cadetblue;
 }
+  }
